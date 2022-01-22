@@ -1,4 +1,3 @@
-# 
 #  <span style="color:yellow">Agenda</span>
 
 if you want to create a static web site with s3 you have to create some resources
@@ -56,14 +55,14 @@ and add the following configuration to the main.tf
 
    module "bucket-website" {
     source  = "babakDoraniArab/bucket-website/aws"
-    version = "1.0.1"
+    version = "1.0.3"
     domain_name = var.domain_name
   # please check the link below and use the latest version
   # https://registry.terraform.io/modules/babakDoraniArab/bucket-website/aws/latest
    }
  ```
 
- ### 
+  
  ### <span style="color:yellow">final codes</span>
 
    `terraform init` 
