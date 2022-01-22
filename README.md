@@ -60,6 +60,7 @@ and add the following configuration to the main.tf
     domain_name = var.domain_name
   # please check the link below and use the latest version
   # https://registry.terraform.io/modules/babakDoraniArab/bucket-website/aws/latest
+   }
  ```
 
  ### 
