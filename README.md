@@ -54,11 +54,12 @@ and add the following configuration to the main.tf
     type = string
     }
 
-   module "bucketWeb" {
-    source = "https://github.com/babakDoraniArab/terraform-aws-bucket-website.git"
-
+   module "bucket-website" {
+    source  = "babakDoraniArab/bucket-website/aws"
+    version = "1.0.1"
     domain_name = var.domain_name
-    }
+  # please check the link below and use the latest version
+  # https://registry.terraform.io/modules/babakDoraniArab/bucket-website/aws/latest
  ```
 
  ### 
